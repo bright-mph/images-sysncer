@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/apache/doris:doris-all-in-one-2.1.0 docker://registry.cn-hangzhou.aliyuncs.com/mph_docker_images/doris:doris-all-in-one-2.1.0
+        skopeo copy docker://docker.io/apache/openjdk:8u342-jdk docker://registry.cn-hangzhou.aliyuncs.com/mph_docker_images/openjdk:8u342-jdk
